@@ -22,7 +22,7 @@ define(function (require, exports, module) {
 
   /**
    * @private
-   * Polyfill from http://stackoverflow.com/a/4550005
+   * http://stackoverflow.com/a/4550005
    * @param str Text to be repeated.
    * @param num Number of times text should be repeated.
    * @return {string} repeated the number of times stated.
@@ -43,6 +43,17 @@ define(function (require, exports, module) {
             _repeatString("\u0009", PreferencesManager.get("tabSize")) :
             _repeatString("\u0020", PreferencesManager.get("spaceUnits")));
   }
+  
+  /**
+   * @private
+   * Set the current indentation settings for use in inserted code
+   */
+  function _setIndentSize() {
+    // Do NOT attempt to assign `indentUnits` directly to the function.
+    // It will completely break otherwise.
+    var tempVar  = _getIndentSize();
+    indentUnits  = tempVar;
+  }
 
 
   // Get user's indentation settings
@@ -50,14 +61,10 @@ define(function (require, exports, module) {
     data.ids.forEach(function (value, index) {
       // A relevant preference was changed, update our settings
       if (value === "useTabChar" || value === "tabSize" || value === "spaceUnits") {
-        // Do NOT attempt to assign `indentUnits` directly to the function.
-        // It will completely break otherwise.
-        var tempVar  = _getIndentSize();
-        indentUnits  = tempVar;
+        _setIndentSize();
       }
     });
   });
-
 
 
   /**
@@ -71,7 +78,7 @@ define(function (require, exports, module) {
 
     // Perform an asynchronous request
     $.ajax({
-      cache: false,
+      cache: true,
       dataType: "json",
       url: "https://api.github.com/repos/twbs/bootstrap/releases",
       success: function(data) {
@@ -158,5 +165,6 @@ define(function (require, exports, module) {
     CommandManager.register("New Bootstrap 3 Document", EXTENSION_ID, _inserthtmlSkelly);
     var theMenu = Menus.getMenu(Menus.AppMenuBar.FILE_MENU);
     theMenu.addMenuItem(EXTENSION_ID);
+    _setIndentSize();
   });
 });
