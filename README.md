@@ -1,6 +1,6 @@
 # Brackets Bootstrap Skeleton #
 
-A [Brackets](http://brackets.io/) extension to add Bootstrap 3.2 HTML5 Skeleton to your page by going File > New Bootstrap 3 Document.
+A [Brackets](http://brackets.io/) extension to add Bootstrap 3 HTML5 Skeleton to your page by going File > New Bootstrap 3 Document.
 
 ## Installation ##
 1. Open the Brackets Extension Manager and search for "bootstrap 3".
