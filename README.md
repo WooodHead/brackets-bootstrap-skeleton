@@ -1,12 +1,13 @@
 # Brackets Bootstrap Skeleton #
 
-A [Brackets](http://brackets.io/) extension to add Bootstrap 3 HTML5 Skeleton to your page by going File > New Bootstrap 3 Document.
+> A [Brackets](http://brackets.io/) extension to add a Bootstrap Skeleton to your page.
 
 ## Installation ##
-1. Open the Brackets Extension Manager and search for "bootstrap 3".
-2. Download straight from GitHub using [https://github.com/mirorauhala/brackets-bootstrap-skeleton/archive/master.zip](https://github.com/mirorauhala/brackets-bootstrap-skeleton/archive/master.zip)
+* Open the Brackets Extension Manager and search for "bootstrap skeleton" or
+* Download straight from GitHub using [https://github.com/mirorauhala/brackets-bootstrap-skeleton/archive/master.zip](https://github.com/mirorauhala/brackets-bootstrap-skeleton/archive/master.zip)
 
 ## Updates ##
+* 0.2.0 9/10/2015 - Merge PR [#19](https://github.com/mirorauhala/brackets-bootstrap-skeleton/pull/19)
 * 0.1.0 2/10/2014 - collaborating with [@le717](https://github.com/le717) see the release for more info
 * 0.0.5, 4/8/2014 - [@rufncrus](https://github.com/rufncrus) just made a change that was *SO* easy to do, but I always were too lazy to update it myself. Also I added s letters to http so it's now https. See, I'm *that* lazy! :smile:
 * 0.0.4, ??/??/?? - this was my bad, sorry I'm new to versioning
@@ -16,9 +17,9 @@ A [Brackets](http://brackets.io/) extension to add Bootstrap 3 HTML5 Skeleton to
 
 ## Directions ##
 * File > New
-* Then File > New Bootstrap 3 Document
+* Then Edit > New Bootstrap Document
 
-This will make Bootstrap 3 Skeleton at cursor location.
+This will make Bootstrap Skeleton at cursor location.
 
 ## License ##
 This extension is based on the [HTML Skeleton](https://github.com/le717/brackets-html-skeleton) by [@le717](https://github.com/le717)
