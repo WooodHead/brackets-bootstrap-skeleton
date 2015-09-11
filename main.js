@@ -124,7 +124,7 @@ define(function (require, exports, module) {
         "indent-sizeindent-size</div>\nindent-size</nav>\n\n" +
         "indent-size<div class='container'>\nindent-sizeindent-size<div class='starter-template'>\n" +
         "indent-sizeindent-sizeindent-size<h1>Hello, world!</h1>\n" +
-        "indent-sizeindent-sizeindent-sizeindent-size<p class='lead'>Now you can start your own project with <a target='_blank' href='http://getbootstrap.com/'>Bootstrap {boots-version}</a>. This plugin is a fork from <a href='https://github.com/le717/brackets-html-skeleton#readme'>HTML Skeleton</a>.</p>\n" +
+        "indent-sizeindent-sizeindent-size<p class='lead'>Now you can start your own project with <a target='_blank' href='http://getbootstrap.com/'>Bootstrap {boots-version}</a>. This plugin is a fork from <a href='https://github.com/le717/brackets-html-skeleton#readme'>HTML Skeleton</a>.</p>\n" +
         "indent-sizeindent-size</div>\nindent-size</div>\n\n" +
         "indent-size<script src='https://ajax.googleapis.com/ajax/libs/jquery/{jq-version}/jquery.min.js'></script>\n" +
         "indent-size<script src='https://maxcdn.bootstrapcdn.com/bootstrap/{boots-version}/js/bootstrap.min.js'></script>\n" +
