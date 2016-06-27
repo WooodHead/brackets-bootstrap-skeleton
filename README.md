@@ -2,6 +2,9 @@
 
 > A [Brackets](http://brackets.io/) extension to add a Bootstrap Skeleton to your page.
 
+
+#### Deveploment has been discontinued.
+
 ## Installation ##
 * Open the Brackets Extension Manager and search for "bootstrap skeleton" or
 * Download straight from GitHub using [https://github.com/mirorauhala/brackets-bootstrap-skeleton/archive/master.zip](https://github.com/mirorauhala/brackets-bootstrap-skeleton/archive/master.zip)
